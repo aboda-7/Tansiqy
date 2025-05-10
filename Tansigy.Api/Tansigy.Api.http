@@ -1,0 +1,6 @@
+@Tansigy.Api_HostAddress = http://localhost:5052
+
+GET {{Tansigy.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
