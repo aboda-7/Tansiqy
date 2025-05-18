@@ -21,7 +21,7 @@ namespace Tansiqy.DAL.Database
 
         protected override void OnModelCreating(ModelBuilder mb)
         {
-            // FacultyUniversity: composite key
+           
             mb.Entity<FacultyUniversity>()
                 .HasKey(fu => new { fu.FID, fu.UniID });
 
@@ -35,7 +35,7 @@ namespace Tansiqy.DAL.Database
                 .WithMany(u => u.FacultyUniversities)
                 .HasForeignKey(fu => fu.UniID);
 
-            // FacultyDegree: composite key
+           
             mb.Entity<FacultyDegree>()
                 .HasKey(fd => new { fd.FID, fd.DegID });
 
@@ -49,7 +49,7 @@ namespace Tansiqy.DAL.Database
                 .WithMany(d => d.FacultyDegrees)
                 .HasForeignKey(fd => fd.DegID);
 
-            // UniversityDepartment: composite key
+           
             mb.Entity<UniversityDepartment>()
                 .HasKey(ud => new { ud.UniID, ud.DepID });
 
@@ -63,7 +63,7 @@ namespace Tansiqy.DAL.Database
                 .WithMany(d => d.UniversityDepartments)
                 .HasForeignKey(ud => ud.DepID);
 
-            // DegreeDepartment: composite key
+         
             mb.Entity<DegreeDepartment>()
                 .HasKey(dd => new { dd.DegID, dd.DepID });
 
@@ -77,13 +77,13 @@ namespace Tansiqy.DAL.Database
                 .WithMany(d => d.DegreeDepartments)
                 .HasForeignKey(dd => dd.DepID);
 
-            // Department: Faculty relationship
+          
             mb.Entity<Department>()
                 .HasOne(d => d.Faculty)
                 .WithMany(f => f.Departments)
                 .HasForeignKey(d => d.FID);
 
-            // User: Degree relationship
+         
             mb.Entity<User>()
                 .HasOne(u => u.Degree)
                 .WithMany(d => d.Users)
