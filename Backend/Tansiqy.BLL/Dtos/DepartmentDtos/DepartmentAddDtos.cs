@@ -10,5 +10,7 @@ namespace Tansiqy.BLL.Dtos.Department
     {
         public string Name { get; set; }
         public string Description { get; set; }
+
+        public int FacultyID { get; set; }
     }
 }

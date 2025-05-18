@@ -5,7 +5,7 @@
 namespace Tansiqy.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -39,18 +39,6 @@ namespace Tansiqy.DAL.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Favourites",
-                columns: table => new
-                {
-                    ID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1")
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Favourites", x => x.ID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Universities",
                 columns: table => new
                 {
@@ -78,17 +66,17 @@ namespace Tansiqy.DAL.Migrations
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Password = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Role = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Degree_Id = table.Column<int>(type: "int", nullable: true)
+                    DegID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.ID);
                     table.ForeignKey(
-                        name: "FK_Users_Degrees_Degree_Id",
-                        column: x => x.Degree_Id,
+                        name: "FK_Users_Degrees_DegID",
+                        column: x => x.DegID,
                         principalTable: "Degrees",
                         principalColumn: "ID",
-                        onDelete: ReferentialAction.SetNull);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -99,14 +87,14 @@ namespace Tansiqy.DAL.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    faculty_Id = table.Column<int>(type: "int", nullable: false)
+                    FID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Departments", x => x.ID);
                     table.ForeignKey(
-                        name: "FK_Departments_Faculties_faculty_Id",
-                        column: x => x.faculty_Id,
+                        name: "FK_Departments_Faculties_FID",
+                        column: x => x.FID,
                         principalTable: "Faculties",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
@@ -117,49 +105,21 @@ namespace Tansiqy.DAL.Migrations
                 columns: table => new
                 {
                     FID = table.Column<int>(type: "int", nullable: false),
-                    DegID = table.Column<int>(type: "int", nullable: false),
-                    FacultyID = table.Column<int>(type: "int", nullable: false),
-                    DegreeID = table.Column<int>(type: "int", nullable: false)
+                    DegID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_FacultyDegrees", x => new { x.FID, x.DegID });
                     table.ForeignKey(
-                        name: "FK_FacultyDegrees_Degrees_DegreeID",
-                        column: x => x.DegreeID,
+                        name: "FK_FacultyDegrees_Degrees_DegID",
+                        column: x => x.DegID,
                         principalTable: "Degrees",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_FacultyDegrees_Faculties_FacultyID",
-                        column: x => x.FacultyID,
+                        name: "FK_FacultyDegrees_Faculties_FID",
+                        column: x => x.FID,
                         principalTable: "Faculties",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "FacultyFavourites",
-                columns: table => new
-                {
-                    FID = table.Column<int>(type: "int", nullable: false),
-                    FavID = table.Column<int>(type: "int", nullable: false),
-                    FacultyID = table.Column<int>(type: "int", nullable: false),
-                    FavouriteID = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_FacultyFavourites", x => new { x.FID, x.FavID });
-                    table.ForeignKey(
-                        name: "FK_FacultyFavourites_Faculties_FacultyID",
-                        column: x => x.FacultyID,
-                        principalTable: "Faculties",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_FacultyFavourites_Favourites_FavouriteID",
-                        column: x => x.FavouriteID,
-                        principalTable: "Favourites",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -169,22 +129,20 @@ namespace Tansiqy.DAL.Migrations
                 columns: table => new
                 {
                     FID = table.Column<int>(type: "int", nullable: false),
-                    UniID = table.Column<int>(type: "int", nullable: false),
-                    FacultyID = table.Column<int>(type: "int", nullable: false),
-                    UniversityID = table.Column<int>(type: "int", nullable: false)
+                    UniID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_FacultyUniversities", x => new { x.FID, x.UniID });
                     table.ForeignKey(
-                        name: "FK_FacultyUniversities_Faculties_FacultyID",
-                        column: x => x.FacultyID,
+                        name: "FK_FacultyUniversities_Faculties_FID",
+                        column: x => x.FID,
                         principalTable: "Faculties",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_FacultyUniversities_Universities_UniversityID",
-                        column: x => x.UniversityID,
+                        name: "FK_FacultyUniversities_Universities_UniID",
+                        column: x => x.UniID,
                         principalTable: "Universities",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
@@ -195,22 +153,20 @@ namespace Tansiqy.DAL.Migrations
                 columns: table => new
                 {
                     DegID = table.Column<int>(type: "int", nullable: false),
-                    DepID = table.Column<int>(type: "int", nullable: false),
-                    DegreeID = table.Column<int>(type: "int", nullable: false),
-                    DepartmentID = table.Column<int>(type: "int", nullable: false)
+                    DepID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_DegreeDepartments", x => new { x.DegID, x.DepID });
                     table.ForeignKey(
-                        name: "FK_DegreeDepartments_Degrees_DegreeID",
-                        column: x => x.DegreeID,
+                        name: "FK_DegreeDepartments_Degrees_DegID",
+                        column: x => x.DegID,
                         principalTable: "Degrees",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_DegreeDepartments_Departments_DepartmentID",
-                        column: x => x.DepartmentID,
+                        name: "FK_DegreeDepartments_Departments_DepID",
+                        column: x => x.DepID,
                         principalTable: "Departments",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
@@ -221,86 +177,54 @@ namespace Tansiqy.DAL.Migrations
                 columns: table => new
                 {
                     UniID = table.Column<int>(type: "int", nullable: false),
-                    DepID = table.Column<int>(type: "int", nullable: false),
-                    UniversityID = table.Column<int>(type: "int", nullable: false),
-                    DepartmentID = table.Column<int>(type: "int", nullable: false)
+                    DepID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_UniversityDepartments", x => new { x.UniID, x.DepID });
                     table.ForeignKey(
-                        name: "FK_UniversityDepartments_Departments_DepartmentID",
-                        column: x => x.DepartmentID,
+                        name: "FK_UniversityDepartments_Departments_DepID",
+                        column: x => x.DepID,
                         principalTable: "Departments",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_UniversityDepartments_Universities_UniversityID",
-                        column: x => x.UniversityID,
+                        name: "FK_UniversityDepartments_Universities_UniID",
+                        column: x => x.UniID,
                         principalTable: "Universities",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_DegreeDepartments_DegreeID",
+                name: "IX_DegreeDepartments_DepID",
                 table: "DegreeDepartments",
-                column: "DegreeID");
+                column: "DepID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_DegreeDepartments_DepartmentID",
-                table: "DegreeDepartments",
-                column: "DepartmentID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Departments_faculty_Id",
+                name: "IX_Departments_FID",
                 table: "Departments",
-                column: "faculty_Id");
+                column: "FID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_FacultyDegrees_DegreeID",
+                name: "IX_FacultyDegrees_DegID",
                 table: "FacultyDegrees",
-                column: "DegreeID");
+                column: "DegID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_FacultyDegrees_FacultyID",
-                table: "FacultyDegrees",
-                column: "FacultyID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_FacultyFavourites_FacultyID",
-                table: "FacultyFavourites",
-                column: "FacultyID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_FacultyFavourites_FavouriteID",
-                table: "FacultyFavourites",
-                column: "FavouriteID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_FacultyUniversities_FacultyID",
+                name: "IX_FacultyUniversities_UniID",
                 table: "FacultyUniversities",
-                column: "FacultyID");
+                column: "UniID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_FacultyUniversities_UniversityID",
-                table: "FacultyUniversities",
-                column: "UniversityID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_UniversityDepartments_DepartmentID",
+                name: "IX_UniversityDepartments_DepID",
                 table: "UniversityDepartments",
-                column: "DepartmentID");
+                column: "DepID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_UniversityDepartments_UniversityID",
-                table: "UniversityDepartments",
-                column: "UniversityID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Users_Degree_Id",
+                name: "IX_Users_DegID",
                 table: "Users",
-                column: "Degree_Id");
+                column: "DegID");
         }
 
         /// <inheritdoc />
@@ -313,9 +237,6 @@ namespace Tansiqy.DAL.Migrations
                 name: "FacultyDegrees");
 
             migrationBuilder.DropTable(
-                name: "FacultyFavourites");
-
-            migrationBuilder.DropTable(
                 name: "FacultyUniversities");
 
             migrationBuilder.DropTable(
@@ -323,9 +244,6 @@ namespace Tansiqy.DAL.Migrations
 
             migrationBuilder.DropTable(
                 name: "Users");
-
-            migrationBuilder.DropTable(
-                name: "Favourites");
 
             migrationBuilder.DropTable(
                 name: "Departments");

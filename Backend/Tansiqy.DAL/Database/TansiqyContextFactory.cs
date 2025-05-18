@@ -8,7 +8,7 @@ public class TansiqyContextFactory : IDesignTimeDbContextFactory<TansiqyContext>
     {
         var optionsBuilder = new DbContextOptionsBuilder<TansiqyContext>();
 
-        optionsBuilder.UseSqlServer("Server=ABODA;Database=Tansiqy;Trusted_Connection=True;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=ABODA;Database=TansiqyDB;Trusted_Connection=True;TrustServerCertificate=True;");
 
         return new TansiqyContext(optionsBuilder.Options);
     }

@@ -20,7 +20,7 @@ namespace Tansiqy.BLL.Manager
         public void Add(UserAddDtos user)
         {
             var existingUser = _userRepository.GetAll()
-                          .FirstOrDefault(u => u.Email == user.Email || u.ID == user.Id);
+                          .FirstOrDefault(u => u.Email == user.Email);
 
             if (existingUser != null)
             {
@@ -33,7 +33,7 @@ namespace Tansiqy.BLL.Manager
                 Email = user.Email,
                 Password = user.Password,
                 Role = user.Role,
-                Degree_Id=1 // to avoid degree id being null (will change later)
+                DegID = user.DegreeId,
             };
             _userRepository.Add(userModel);
         }
@@ -49,10 +49,12 @@ namespace Tansiqy.BLL.Manager
             var userModel = _userRepository.GetAll();
             var userDtos = userModel.Select(u => new UserReadDtos
             {
+                ID = u.ID,
                 Name = u.Name,
                 Email = u.Email,
                 Password = u.Password,
                 Role = u.Role,
+                DegreeId = u.DegID
             }).ToList();
 
             return userDtos;
@@ -69,23 +71,26 @@ namespace Tansiqy.BLL.Manager
 
             var userDtos = new UserReadDtos
             {
+                ID = userModel.ID,
                 Name = userModel.Name,
                 Email = userModel.Email,
                 Password = userModel.Password,
                 Role = userModel.Role,
+                DegreeId = userModel.DegID
             };
 
             return userDtos;
         }
 
-        public void Update(UserUpdateDtos user)
+        public void Update(int id, UserUpdateDtos user)
         {
-            var userModel = _userRepository.GetById(user.UID);
+            var userModel = _userRepository.GetById(id);
 
             userModel.Name = user.Name;
             userModel.Email = user.Email;
             userModel.Password = user.Password;
             userModel.Role = user.Role;
+            userModel.DegID = user.DegreeId;
 
             _userRepository.Update(userModel);
         }

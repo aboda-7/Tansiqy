@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TansiqyFrontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9970f2160d7cd806ce9c02cc4eedb1c4dc19005")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e488eddb97a26843b4b67f1d170f00999515d1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TansiqyFrontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TansiqyFrontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

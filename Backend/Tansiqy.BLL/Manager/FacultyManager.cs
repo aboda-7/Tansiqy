@@ -12,7 +12,7 @@ namespace Tansiqy.BLL.Manager
     public class FacultyManager : IFacultyManager
     {
         private readonly IFacultyRepository _facultyRepository;
-        public FacultyManager(IFacultyRepository facultyRepository) 
+        public FacultyManager(IFacultyRepository facultyRepository)
         {
             _facultyRepository = facultyRepository;
         }
@@ -20,6 +20,7 @@ namespace Tansiqy.BLL.Manager
         {
             var facultyModel = new Faculty
             {
+               
                 Name = faculty.Name,
                 Description = faculty.Description,
             };
@@ -37,6 +38,7 @@ namespace Tansiqy.BLL.Manager
             var facultyModel = _facultyRepository.GetAll();
             var facultyDtos = facultyModel.Select(a => new FacultyReadDtos
             {
+                ID = a.ID,
                 Name = a.Name,
                 Description = a.Description,
             }).ToList();
@@ -55,6 +57,7 @@ namespace Tansiqy.BLL.Manager
 
             var facultyDtos = new FacultyReadDtos
             {
+                ID = facultyModel.ID,
                 Name = facultyModel.Name,
                 Description = facultyModel.Description,
             };

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tansigy\\Tansigy\\Frontend\\TansiqyFrontend\\TansiqyFrontend.csproj",
+      "projectUniqueName": "D:\\Tansigy\\Tansigy\\Frontend\\TansiqyFrontend.csproj",
       "projectName": "TansiqyFrontend",
-      "projectPath": "D:\\Tansigy\\Tansigy\\Frontend\\TansiqyFrontend\\TansiqyFrontend.csproj",
+      "projectPath": "D:\\Tansigy\\Tansigy\\Frontend\\TansiqyFrontend.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "D:\\Tansigy\\Tansigy\\Frontend\\TansiqyFrontend\\obj\\",
+      "outputPath": "D:\\Tansigy\\Tansigy\\Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -22,7 +22,7 @@ namespace Tansiqy.BLL.Manager
             var degreeModel = new Degree
             {
                 Name = degree.Name,
-                Type= degree.Type,
+                Type = degree.Type,
             };
             _degreeRepository.Add(degreeModel);
         }
@@ -48,7 +48,7 @@ namespace Tansiqy.BLL.Manager
 
         public DegreeReadDtos GetById(int id)
         {
-          
+
             var degreeModel = _degreeRepository.GetById(id);
 
             if (degreeModel == null)
@@ -60,7 +60,7 @@ namespace Tansiqy.BLL.Manager
             {
                 Degid = degreeModel.ID,
                 Name = degreeModel.Name,
-                Type = degreeModel.Type,    
+                Type = degreeModel.Type,
             };
             return degreeDtos;
         }

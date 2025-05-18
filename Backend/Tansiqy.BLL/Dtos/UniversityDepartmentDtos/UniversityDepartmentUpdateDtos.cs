@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tansiqy.BLL.Dtos.Department
+namespace Tansiqy.BLL.Dtos.UniversityDepartmentDtos
 {
-    public class DepartmentUpdateDtos
+    public class UniversityDepartmentUpdateDtos
     {
+        public int UniID { get; set; }
         public int DepID { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
     }
 }

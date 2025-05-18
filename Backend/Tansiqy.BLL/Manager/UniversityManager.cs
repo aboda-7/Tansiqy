@@ -17,7 +17,7 @@ namespace Tansiqy.BLL.Manager
             _universityRepository = universityRepository;
         }
         public void Add(UniversityAddDtos university)
-        { 
+        {
             var universityModel = new University
             {
                 Name = university.Name,
@@ -41,6 +41,7 @@ namespace Tansiqy.BLL.Manager
             var universityModel = _universityRepository.GetAll();
             var universityDtos = universityModel.Select(a => new UniversityReadDtos
             {
+                ID = a.ID,
                 Name = a.Name,
                 Description = a.Description,
                 Type = a.Type,
@@ -62,12 +63,13 @@ namespace Tansiqy.BLL.Manager
 
             var universityDtos = new UniversityReadDtos
             {
+                ID = universityModel.ID,
                 Name = universityModel.Name,
                 Description = universityModel.Description,
                 Type = universityModel.Type,
                 City = universityModel.City,
                 Link = universityModel.Link,
-                Ranking= universityModel.Rank,    
+                Ranking = universityModel.Rank,
             };
             return universityDtos;
         }

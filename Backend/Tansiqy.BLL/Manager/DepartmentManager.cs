@@ -24,7 +24,7 @@ namespace Tansiqy.BLL.Manager
             {
                 Name = department.Name,
                 Description = department.Description,
-                faculty_Id = 1//hard coded (will change later)
+                FID = department.FacultyID,
             };
             _departmentRepository.Add(departmentModel);
         }
@@ -40,8 +40,10 @@ namespace Tansiqy.BLL.Manager
             var departmentModel = _departmentRepository.GetAll();
             var departmentDtos = departmentModel.Select(d => new DepartmentReadDtos
             {
+                ID = d.ID,
                 Description = d.Description,
                 Name = d.Name,
+                FacultyID = d.FID,
             }).ToList();
 
             return departmentDtos;
@@ -58,15 +60,18 @@ namespace Tansiqy.BLL.Manager
 
             var departmentDtos = new DepartmentReadDtos
             {
+                ID = departmentModel.ID,
                 Name = departmentModel.Name,
-                Description= departmentModel.Description,
+                Description = departmentModel.Description,
+                FacultyID = departmentModel.FID,
             };
             return departmentDtos;
         }
 
-        public void Update(DepartmentUpdateDtos department)
+        public void Update(int id, DepartmentUpdateDtos department)
         {
-            var departmentModel = _departmentRepository.GetById(department.DepID);
+            var departmentModel = _departmentRepository.GetById(id);
+
 
             departmentModel.Name = department.Name;
             departmentModel.Description = department.Description;

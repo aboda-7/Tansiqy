@@ -1,7 +1,8 @@
-using Tansiqy.BLL.Manager;
 using Microsoft.EntityFrameworkCore;
 using Tansiqy.DAL.Database;
 using Tansiqy.DAL.Repository;
+using Tansiqy.BLL.Manager;
+using Tansiqy.DAL.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,13 +28,17 @@ builder.Services.AddScoped<IUniversityManager, UniversityManager>();
 builder.Services.AddScoped<IFacultyManager, FacultyManager>();
 builder.Services.AddScoped<IDepartmentManager, DepartmentManager>();
 builder.Services.AddScoped<IDegreeManager, DegreeManager>();
+builder.Services.AddScoped<IFacultyUniversityManager, FacultyUniversityManager>();
+builder.Services.AddScoped<IUniversityDepartmentManager, UniversityDepartmentManager>();
+builder.Services.AddScoped<IDegreeDepartmentManager, DegreeDepartmentManager>();
+builder.Services.AddScoped<IFacultyDegreeManager, FacultyDegreeManager>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUniversityRepository, UniversityRepository>();
 builder.Services.AddScoped<IFacultyRepository, FacultyRepository>();
 builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
 builder.Services.AddScoped<IDegreeRepository, DegreeRepository>();
-builder.Services.AddScoped<IFavouriteRepository, FavouriteRepository>();
+//builder.Services.AddScoped<IFavouriteRepository, FavouriteRepository>();
 
 
 var app = builder.Build();

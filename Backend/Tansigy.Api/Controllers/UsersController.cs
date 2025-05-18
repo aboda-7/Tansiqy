@@ -58,11 +58,7 @@ namespace Tansiqy.Api.Controllers
         [HttpPut("{Id}")]
         public IActionResult Update(int Id, UserUpdateDtos userUpdateDto)
         {
-            if(Id != userUpdateDto.UID)
-            {
-                return BadRequest(new { message = "Can't edit" });
-            }
-            _userManager.Update(userUpdateDto);
+            _userManager.Update(Id, userUpdateDto);
             return NoContent();
         }
 
