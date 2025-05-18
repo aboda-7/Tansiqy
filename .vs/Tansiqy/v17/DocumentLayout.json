@@ -1,0 +1,740 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tansigy\\Tansigy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Repository\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509155055_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Migrations\\20250509155055_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509154902_UpdatedDegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Migrations\\20250509154902_UpdatedDegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509125955_EditTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Migrations\\20250509125955_EditTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansigy.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansigy.Api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\IFacultyManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Manager\\IFacultyManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\DegreeManger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Manager\\DegreeManger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\DegreeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Repository\\DegreeRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\Degree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\FacultyDegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\FacultyDegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\University.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\University.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansigy.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansigy.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\UserManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Manager\\UserManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\IDepartmentManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Manager\\IDepartmentManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\UniversityManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Manager\\UniversityManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\FacultyManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Manager\\FacultyManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\DepartmentManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Manager\\DepartmentManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\FavouriteRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Repository\\FavouriteRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509165534_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Migrations\\20250509165534_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Database\\TansiqyContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Database\\TansiqyContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\UniversityDepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\UniversityDepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\Favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\Faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeUpdateDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeUpdateDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeReadDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeReadDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeAddDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeAddDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\FacultyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Repository\\FacultyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\UniversitiesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansigy.Api\\Controllers\\UniversitiesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansigy.Api\\Controllers\\UsersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\UniversityRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Repository\\UniversityRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\IUniversityManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Manager\\IUniversityManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\FacultiesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansigy.Api\\Controllers\\FacultiesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\DepartmentsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansigy.Api\\Controllers\\DepartmentsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\DegreeDepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\DegreeDepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansigy.Api\\Tansiqy.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansigy.Api\\Tansiqy.Api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Tansiqy.BLL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Tansiqy.BLL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Tansiqy.DAL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Tansiqy.DAL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Database\\TansiqyContextFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Database\\TansiqyContextFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\DegreesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansigy.Api\\Controllers\\DegreesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\UserDtos\\UserReadDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Dtos\\UserDtos\\UserReadDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\FacultyUniversity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.DAL\\Models\\FacultyUniversity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\UserDtos\\UserUpdateDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Dtos\\UserDtos\\UserUpdateDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\UserDtos\\UserAddDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tansiqy.BLL\\Dtos\\UserDtos\\UserAddDtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Tansigy.Api\\appsettings.json",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\appsettings.json",
+              "RelativeToolTip": "Tansigy.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T13:40:57.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFacultyManager.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\IFacultyManager.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Manager\\IFacultyManager.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\IFacultyManager.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Manager\\IFacultyManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:55:50.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DegreeManger.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\DegreeManger.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Manager\\DegreeManger.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\DegreeManger.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Manager\\DegreeManger.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:29:19.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DegreeRepository.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\DegreeRepository.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Repository\\DegreeRepository.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\DegreeRepository.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Repository\\DegreeRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:36:15.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Repository\\UserRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:21:47.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Degree.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Degree.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\Degree.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Degree.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\Degree.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:32:59.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FacultyDegree.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\FacultyDegree.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\FacultyDegree.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\FacultyDegree.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\FacultyDegree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:36:59.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "University.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\University.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\University.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\University.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\University.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:39:12.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Tansigy.Api\\Program.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Program.cs",
+              "RelativeToolTip": "Tansigy.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:06:15.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\UserManager.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Manager\\UserManager.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\UserManager.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Manager\\UserManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA3wBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:36:42.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDepartmentManager.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\IDepartmentManager.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Manager\\IDepartmentManager.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\IDepartmentManager.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Manager\\IDepartmentManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:34:47.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UniversityManager.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\UniversityManager.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Manager\\UniversityManager.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\UniversityManager.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Manager\\UniversityManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:40:27.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FacultyManager.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\FacultyManager.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Manager\\FacultyManager.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\FacultyManager.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Manager\\FacultyManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwBIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:36:12.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DepartmentManager.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\DepartmentManager.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Manager\\DepartmentManager.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\DepartmentManager.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Manager\\DepartmentManager.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:06:57.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FavouriteRepository.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\FavouriteRepository.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Repository\\FavouriteRepository.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\FavouriteRepository.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Repository\\FavouriteRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:00:39.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250509165534_Initial.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509165534_Initial.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Migrations\\20250509165534_Initial.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509165534_Initial.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Migrations\\20250509165534_Initial.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T16:55:34.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TansiqyContext.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Database\\TansiqyContext.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Database\\TansiqyContext.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Database\\TansiqyContext.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Database\\TansiqyContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:33:37.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UniversityDepartment.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\UniversityDepartment.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\UniversityDepartment.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\UniversityDepartment.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\UniversityDepartment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:38:34.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\User.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\User.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:44:34.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Favourite.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Favourite.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\Favourite.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Favourite.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\Favourite.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:38:11.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Faculty.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\Faculty.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Faculty.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\Faculty.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:35:52.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\Department.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\Department.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\Department.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:32:30.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DegreeUpdateDtos.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeUpdateDtos.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeUpdateDtos.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeUpdateDtos.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeUpdateDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T16:40:55.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DegreeReadDtos.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeReadDtos.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeReadDtos.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeReadDtos.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeReadDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T16:40:45.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DegreeAddDtos.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeAddDtos.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeAddDtos.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeAddDtos.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Dtos\\DegreeDtos\\DegreeAddDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T16:39:02.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FacultyRepository.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\FacultyRepository.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Repository\\FacultyRepository.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\FacultyRepository.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Repository\\FacultyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T16:40:05.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UniversitiesController.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\UniversitiesController.cs",
+              "RelativeDocumentMoniker": "Tansigy.Api\\Controllers\\UniversitiesController.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\UniversitiesController.cs",
+              "RelativeToolTip": "Tansigy.Api\\Controllers\\UniversitiesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:59:36.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250509155055_Initial.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509155055_Initial.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Migrations\\20250509155055_Initial.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509155055_Initial.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Migrations\\20250509155055_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:50:55.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250509154902_UpdatedDegree.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509154902_UpdatedDegree.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Migrations\\20250509154902_UpdatedDegree.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509154902_UpdatedDegree.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Migrations\\20250509154902_UpdatedDegree.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:49:02.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Tansigy.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Tansigy.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwBsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:58:53.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UniversityRepository.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\UniversityRepository.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Repository\\UniversityRepository.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Repository\\UniversityRepository.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Repository\\UniversityRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:49:31.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IUniversityManager.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\IUniversityManager.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Manager\\IUniversityManager.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Manager\\IUniversityManager.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Manager\\IUniversityManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:34:45.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FacultiesController.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\FacultiesController.cs",
+              "RelativeDocumentMoniker": "Tansigy.Api\\Controllers\\FacultiesController.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\FacultiesController.cs",
+              "RelativeToolTip": "Tansigy.Api\\Controllers\\FacultiesController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAnwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:44:29.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Tansigy.Api\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Tansigy.Api\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:28:32.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DegreeDepartment.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\DegreeDepartment.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\DegreeDepartment.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\DegreeDepartment.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\DegreeDepartment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:32:10.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Tansiqy.Api.csproj",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Tansiqy.Api.csproj",
+              "RelativeDocumentMoniker": "Tansigy.Api\\Tansiqy.Api.csproj",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Tansiqy.Api.csproj",
+              "RelativeToolTip": "Tansigy.Api\\Tansiqy.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T11:41:04.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Tansiqy.BLL.csproj",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Tansiqy.BLL.csproj",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Tansiqy.BLL.csproj",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Tansiqy.BLL.csproj",
+              "RelativeToolTip": "Tansiqy.BLL\\Tansiqy.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T11:41:29.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Tansiqy.DAL.csproj",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Tansiqy.DAL.csproj",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Tansiqy.DAL.csproj",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Tansiqy.DAL.csproj",
+              "RelativeToolTip": "Tansiqy.DAL\\Tansiqy.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T11:53:08.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250509125955_EditTable.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509125955_EditTable.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Migrations\\20250509125955_EditTable.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Migrations\\20250509125955_EditTable.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Migrations\\20250509125955_EditTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:59:55.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TansiqyContextFactory.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Database\\TansiqyContextFactory.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Database\\TansiqyContextFactory.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Database\\TansiqyContextFactory.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Database\\TansiqyContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:11:05.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DegreesController.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\DegreesController.cs",
+              "RelativeDocumentMoniker": "Tansigy.Api\\Controllers\\DegreesController.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansigy.Api\\Controllers\\DegreesController.cs",
+              "RelativeToolTip": "Tansigy.Api\\Controllers\\DegreesController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:34:23.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserReadDtos.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\UserDtos\\UserReadDtos.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Dtos\\UserDtos\\UserReadDtos.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\UserDtos\\UserReadDtos.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Dtos\\UserDtos\\UserReadDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:36:31.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FacultyUniversity.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\FacultyUniversity.cs",
+              "RelativeDocumentMoniker": "Tansiqy.DAL\\Models\\FacultyUniversity.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.DAL\\Models\\FacultyUniversity.cs",
+              "RelativeToolTip": "Tansiqy.DAL\\Models\\FacultyUniversity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:38:29.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserUpdateDtos.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\UserDtos\\UserUpdateDtos.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Dtos\\UserDtos\\UserUpdateDtos.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\UserDtos\\UserUpdateDtos.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Dtos\\UserDtos\\UserUpdateDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:36:32.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UserAddDtos.cs",
+              "DocumentMoniker": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\UserDtos\\UserAddDtos.cs",
+              "RelativeDocumentMoniker": "Tansiqy.BLL\\Dtos\\UserDtos\\UserAddDtos.cs",
+              "ToolTip": "D:\\Tansigy\\Tansigy\\Tansiqy.BLL\\Dtos\\UserDtos\\UserAddDtos.cs",
+              "RelativeToolTip": "Tansiqy.BLL\\Dtos\\UserDtos\\UserAddDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:36:28.67Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
