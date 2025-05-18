@@ -63,17 +63,14 @@ namespace Tansiqy.BLL.Manager
             if (existingRelation == null)
                 return false;
 
-            // Check if the new combination already exists (to avoid duplicates)
             var duplicateExists = _context.UniversityDepartments
                 .Any(fu => fu.UniID == updateDto.UniID && fu.DepID == updateDto.DepID);
 
             if (duplicateExists)
                 return false;
 
-            // Remove the old relationship
             _context.UniversityDepartments.Remove(existingRelation);
 
-            // Add the new relationship
             _context.UniversityDepartments.Add(new UniversityDepartment
             {
                 UniID = updateDto.UniID,
