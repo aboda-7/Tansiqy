@@ -60,3 +60,4 @@ D:\Tansigy\Tansigy\Frontend\obj\Debug\net8.0\refint\TansiqyFrontend.dll
 D:\Tansigy\Tansigy\Frontend\obj\Debug\net8.0\TansiqyFrontend.pdb
 D:\Tansigy\Tansigy\Frontend\obj\Debug\net8.0\TansiqyFrontend.genruntimeconfig.cache
 D:\Tansigy\Tansigy\Frontend\obj\Debug\net8.0\ref\TansiqyFrontend.dll
+D:\Tansigy\Tansigy\Frontend\obj\Debug\net8.0\TansiqyFrontend.csproj.AssemblyReference.cache

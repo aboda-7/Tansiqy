@@ -13,7 +13,7 @@ namespace Tansiqy.BLL.Manager
         IEnumerable<DegreeReadDtos> GetAll();
         DegreeReadDtos GetById(int id);
         void Add(DegreeAddDtos degree);
-        void Update(DegreeUpdateDtos degree);
+        void Update(int id, DegreeUpdateDtos degree);
         void Delete(int id);
     }
 }

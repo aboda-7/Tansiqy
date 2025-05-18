@@ -64,9 +64,9 @@ namespace Tansiqy.BLL.Manager
             return facultyDtos;
         }
 
-        public void Update(FacultyUpdateDtos faculty)
+        public void Update(int id, FacultyUpdateDtos faculty)
         {
-            var facultyModel = _facultyRepository.GetById(faculty.FID);
+            var facultyModel = _facultyRepository.GetById(id);
 
             facultyModel.Name = faculty.Name;
             facultyModel.Description = faculty.Description;

@@ -1,0 +1,33 @@
+﻿@model TansiqyFrontend.ViewModels.ResultViewModel
+
+<h3>الكليات المتاحة</h3>
+@if (Model.Faculties.Any())
+{
+        <ul>
+        @foreach (var f in Model.Faculties)
+        {
+                    <li><strong>@f.Name</strong> - @f.Description</li>
+        }
+        </ul>
+}
+else
+{
+        <p>لا توجد كليات متاحة لهذا المؤهل.</p>
+}
+
+<h3>الجامعات المتاحة</h3>
+@if (Model.Universities.Any())
+{
+        <ul>
+        @foreach (var u in Model.Universities)
+        {
+                    <li><strong>@u.Name</strong> - @u.City (@u.Type)</li>
+        }
+        </ul>
+}
+else
+{
+        <p>لا توجد جامعات متاحة لهذا المؤهل.</p>
+}
+
+<a href="/Search/Index" class="btn btn-secondary">رجوع</a>

@@ -13,7 +13,7 @@ namespace Tansiqy.BLL.Manager
         IEnumerable<UniversityReadDtos> GetAll();
         UniversityReadDtos GetById(int id);
         void Add(UniversityAddDtos university);
-        void Update(UniversityUpdateDtos university);
+        void Update(int id, UniversityUpdateDtos university);
         void Delete(int id);
     }
 }

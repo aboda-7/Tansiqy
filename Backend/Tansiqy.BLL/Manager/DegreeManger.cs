@@ -65,9 +65,9 @@ namespace Tansiqy.BLL.Manager
             return degreeDtos;
         }
 
-        public void Update(DegreeUpdateDtos degree)
+        public void Update(int id, DegreeUpdateDtos degree)
         {
-            var degreeModel = _degreeRepository.GetById(degree.DegID);
+            var degreeModel = _degreeRepository.GetById(id);
 
             degreeModel.Name = degree.Name;
             degreeModel.Type = degree.Type;

@@ -49,11 +49,7 @@ namespace Tansiqy.Api.Controllers
         [HttpPut("{Id}")]
         public IActionResult Update(int Id, FacultyUpdateDtos facultyUpdateDto)
         {
-            if (Id != facultyUpdateDto.FID)
-            {
-                return BadRequest();
-            }
-            _facultyManager.Update(facultyUpdateDto);
+            _facultyManager.Update(Id, facultyUpdateDto);
             return NoContent();
         }
 

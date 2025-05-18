@@ -5,6 +5,9 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+builder.Services.AddHttpClient(); // if using .NET 6+
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

@@ -8,7 +8,6 @@ namespace Tansiqy.BLL.Dtos.FacultyDtos
 {
     public class FacultyUpdateDtos
     {
-        public int FID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
     }

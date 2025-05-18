@@ -74,9 +74,9 @@ namespace Tansiqy.BLL.Manager
             return universityDtos;
         }
 
-        public void Update(UniversityUpdateDtos university)
+        public void Update(int id, UniversityUpdateDtos university)
         {
-            var universityModel = _universityRepository.GetById(university.UniID);
+            var universityModel = _universityRepository.GetById(id);
 
             universityModel.City = university.City;
             universityModel.Name = university.Name;
